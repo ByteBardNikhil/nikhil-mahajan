@@ -141,7 +141,6 @@ select {
 [type="reset"],
 [type="submit"],
 button {
-  -webkit-appearance: button;
   background-color: transparent;
   background-image: none;
 }
@@ -164,7 +163,6 @@ progress {
 }
 
 [type="search"] {
-  -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -248,7 +246,6 @@ object,
 svg,
 video {
   display: block;
-  vertical-align: middle;
 }
 
 img,
@@ -355,7 +352,7 @@ h1 a:hover {
   --tw-backdrop-invert: ;
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia:         
+  --tw-backdrop-sepia:               
 ;
 }
 
@@ -406,7 +403,7 @@ h1 a:hover {
   --tw-backdrop-invert: ;
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia:         
+  --tw-backdrop-sepia:               
 ;
 }
 
@@ -945,6 +942,7 @@ h1 a:hover {
 
 .border {
   border-width: 1px;
+  margin-bottom: 20px;
 }
 
 .border-2 {
